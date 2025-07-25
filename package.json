@@ -1,0 +1,28 @@
+{
+  "name": "ai-meet-transcription",
+  "version": "1.0.0",
+  "description": "AI meeting transcription tool using OpenAI Whisper",
+  "main": "dist/03_transcrevendo_audio.js",
+  "scripts": {
+    "build": "tsc",
+    "aula-03": "ts-node src/03_transcrevendo_audio.ts"
+  },
+  "keywords": [
+    "openai",
+    "whisper",
+    "transcription",
+    "audio",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+} 

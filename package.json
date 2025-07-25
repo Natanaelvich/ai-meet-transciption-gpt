@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "AI meeting transcription tool using OpenAI Whisper",
   "main": "dist/03_transcrevendo_audio.js",
-  "scripts": {
-    "build": "tsc",
-    "aula-03": "ts-node src/03_transcrevendo_audio.ts"
-  },
+      "scripts": {
+      "build": "tsc",
+      "aula-03": "ts-node src/03_transcrevendo_audio.ts",
+      "aula-04": "ts-node src/04_conversando_com_chatgpt.ts"
+    },
   "keywords": [
     "openai",
     "whisper",

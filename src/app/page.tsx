@@ -1,7 +1,8 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { AudioRecorder } from "./components/AudioRecorder";
 
 export default function Home() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
@@ -26,7 +27,10 @@ export default function Home() {
 
       {tab === "gravar" && (
         <div>
-          <h2>Tab Gravar</h2>
+          <div style={{ marginBottom: 20 }}>
+            <AudioRecorder />
+          </div>
+
           {/* Aqui você pode adicionar upload de áudio e chamar a transcrição */}
           <form onSubmit={handleSubmit}>
             <textarea

@@ -58,5 +58,8 @@ coverage/
 *.m4a
 *.flac 
 
+# Temporary audio files
+temp/
+
 # Next.js files
 .next/
